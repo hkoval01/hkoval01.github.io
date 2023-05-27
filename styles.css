@@ -1,0 +1,178 @@
+html {
+    color: white;
+    font-size: 16px;
+    background-color: black;
+    font-family: "Ubuntu", sans-serif;
+}
+
+body {
+    margin: 0;
+}
+
+h1 {
+    font-size: 2.225rem;
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+/*title and logo*/
+#title {
+    display: block;
+    padding-top: 1rem;
+}
+
+#title-logo {
+    width: 2rem;
+    height: 2rem;
+}
+
+.title h2 {
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.title {
+    text-align: center;
+}
+
+/*main content*/
+div.main {
+    display: flex;
+    height: 32rem;
+    width: 100%;
+    background-image: url("../images/titlebackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(81, 81, 81);
+    flex-direction: column;
+}
+
+div h2 {
+    padding-left: 1rem;
+    font-size: 3rem;
+}
+
+.main ul li {
+    padding: 1rem 0rem 1rem 1rem;
+    margin-left:2rem;
+    font-size: 2rem;
+}
+
+.main p {
+    font-size: 1.5rem;
+    padding-left: .5rem;
+}
+
+/*marimbas*/
+.marimbas-title h2 {
+    text-align: center;
+    padding-top: 4rem;
+}
+
+.marimbas {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: center;
+    padding-bottom: 8rem;
+}
+
+.yh43padouk img {
+    height: 15rem;
+    width: 20rem;
+}
+
+.yh43padouk p {
+    margin-top: 0;
+}
+
+.yh5rosewood img {
+    height: 15rem;
+    width: 25rem;
+}
+
+.yh5rosewood p {
+    margin-top: 0;
+}
+
+.sp5padouk img {
+    height: 15rem;
+    width: 25rem;
+}
+
+.sp5padouk p {
+    width: 20rem;
+    margin-top: 0;
+    padding-left: 2.2rem;
+}
+
+.ad5rosewood img {
+    height: 10rem;
+    width: 12rem;
+}
+
+.ad5rosewood p {
+    margin-top: 0;
+}
+
+.maj43padouk img {
+    height: 10rem;
+    width: 12rem;
+}
+
+.maj43padouk p {
+    margin-top: 0;
+}
+
+.mt5padouk img {
+    height: 10rem;
+    width: 12rem;
+}
+
+.mt5padouk p {
+    margin-top: 0;
+}
+
+.muss5rosewood img {
+    height: 10rem;
+    width: 12rem;
+}
+
+.muss5rosewood p {
+    margin-top: 0;
+}
+
+.m15rosewood img {
+    height: 10rem;
+    width: 12rem;
+}
+
+.m15rosewood p {
+    margin-top: 0;
+}
+
+.mt5rosewood img {
+    height: 10rem;
+    width: 12rem;
+}
+
+.mt5rosewood p {
+    margin-top: 0;
+}
+
+/*mallets*/
+.mallets-title {
+    text-align: center;
+    background-image: url("../images/mallets4.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgb(81, 81, 81);
+    height: 12rem;
+}
+
+.mallets-title p {
+    color: black;
+}
