@@ -166,7 +166,7 @@ div h2 {
 /*mallets*/
 .mallets-title {
     text-align: center;
-    background-image: url("mallets4.jpg");
+    background-image: url("../images/mallets4.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     background-color: rgb(81, 81, 81);
@@ -175,4 +175,55 @@ div h2 {
 
 .mallets-title p {
     color: black;
+}
+
+div.mallets {
+    display: inline-flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    text-align: center;
+    align-items: top;
+    padding-bottom: 8rem;
+    padding-top: 4rem;
+    width: 100%;
+}
+
+.nzgrad p {
+    width: 9rem;
+    margin: 0 auto;
+}
+
+.m1bluehelix p {
+    width: 9rem;
+    margin: 0 auto;
+}
+
+.lhs p {
+    width: 9rem;
+    margin: 0 auto;
+}
+
+div.lhs img {
+    width: 9.687rem;
+    height: 9.687rem;
+}
+
+.salyers p {
+    width: 9rem;
+    margin: 0 auto;
+}
+
+/*footer*/
+.contact {
+    width: 100%;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+}
+
+.contact h2 {
+    padding-left: 0;
+    margin-top: 0;
 }
